@@ -1,57 +1,33 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 body {
-    background-color: #1e1e1e;
-    color: white;
     font-family: Arial, sans-serif;
     text-align: center;
+    background-color: #f0f0f0;
 }
 
-.game-container {
+.container {
     max-width: 400px;
     margin: 0 auto;
     padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
+h1 {
+    font-size: 24px;
     margin-bottom: 20px;
 }
 
-.coins {
-    font-size: 2em;
-    font-weight: bold;
-}
-
-.main {
-    margin-bottom: 20px;
-}
-
-.haмster {
-    width: 200px;
-    height: auto;
-}
-
-.footer {
-    margin-top: 20px;
-}
-
-.tap-button {
-    background-color: #4CAF50;
+button {
+    background-color: #007bff;
+    color: #ffffff;
     border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    font-size: 16px;
+    padding: 10px 20px;
+    border-radius: 5px;
     cursor: pointer;
-    border-radius: 8px;
 }
 
-.tap-button:hover {
-    background-color: #45a049;
+img {
+    max-width: 100%;
+    margin-top: 20px;
 }
