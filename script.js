@@ -1,8 +1,19 @@
-let coins = 0;
-const coinsDisplay = document.querySelector('.coins');
-const tapButton = document.querySelector('.tap-button');
+const clickButton = document.getElementById('clickButton');
+const imageUpload = document.getElementById('imageUpload');
+const coinImage = document.getElementById('coinImage');
 
-tapButton.addEventListener('click', () => {
-    coins += 1;
-    coinsDisplay.textContent = coins.toLocaleString();
+let coinCount = 0;
+
+clickButton.addEventListener('click', () => {
+    coinCount++;
+    coinImage.src = 'path/to/your/coin-image.png'; // Замените на путь к изображению Poiagust Coin
+    coinImage.alt = `Poiagust Coin x${coinCount}`;
+});
+
+imageUpload.addEventListener('change', (event) => {
+    const file = event.target.files[0];
+    if (file) {
+        // Обработка загруженного изображения
+        // Например, можно отобразить его на странице
+    }
 });
