@@ -1,25 +1,34 @@
-body {
-    font-family: Arial, sans-serif;
-    text-align: center;
-    background-color: #f0f0f0;
+.game-container {
+  text-align: center;
+  color: #fff;
 }
 
-.menu, .screen {
-    margin-top: 50px;
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #333;
+  padding: 10px;
 }
 
-.hidden {
-    display: none;
+.stat {
+  text-align: center;
+}
+
+.main h1 {
+  font-size: 3em;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #444;
+  padding: 10px;
 }
 
 button {
-    padding: 10px 20px;
-    font-size: 18px;
-    margin: 10px;
-    cursor: pointer;
-}
-
-#tap-button img {
-    width: 100px;
-    height: 100px;
+  background-color: #222;
+  color: #fff;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
 }
